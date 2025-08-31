@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link 
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    >
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>My Profile</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="logo" alt="billionz logo">
+            <img src="assets/Add a heading (5).png" alt="logo">
+        </div>
+
+        <div class="nickname">
+            <h1> Hezzy! </h1>
+
+            <nav id="myLinks" class="navLinks">
+                <a href="#a1"> About </a>
+                <a href="#a1"> Contact </a>
+                <a href="#a3" > Projects </a>
+            </nav>
+
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()" id="menu-icon">
+                <i class="fas fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <section id="a1" class="profileHead">
+        <div class="details">
+
+            <div class="name">
+                <h1> Onyenonachi U. Hezekiah</h1>
+            </div>
+           
+            <div class="bio">
+                <p>
+                    Driven by curiosity and innovation, I’m on a journey to become a <br>
+                    software engineer who creates practical, impactful, and user-focused digital solutions. <br> 
+                    Every project I take on is a step closer to that vision.
+                </p>
+            </div>
+
+            <div id="a2" class="socials">
+                <a href="https://x.com/Everything__Pop" target="_blank" rel="noreferrer noopener">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+
+                <a href="https://web.facebook.com/Onye.Hezekiah/" target="_blank" rel="noreferrer noopener">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://wa.me/2348138884866" target="_blank" rel="noreferrer noopener">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        
+
+        <div class="profilePic">
+            <img src="assets/banner1.png" alt="hezzy picture">
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="a3" class="projects">
+    <h1> Projects </h1>
+    <p> Here are some of the projects I’ve had the privilege to work on. </p>
+        
+        <div class="project1">
+
+            <div class="projectPic">
+                <img src="assets/african.png" alt="webpage">
+            </div>
+
+            <section class="projectbody">
+                <div class="title">
+                    <h1> African Recipes </h1>
+                    <p class="tag"> Live</p>
+
+                    <a href="https://african-recipes-main.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+
+                <h2>
+                    An African recipe website that celebrates the rich flavors and traditions of African cuisine. 
+                    Built with a clean, user-friendly design to make exploring recipes simple and enjoyable.
+                </h2>
+            </section>
+        </div>
+
+        <div class="project2">
+
+            <div class="projectPic">
+                <img src="assets/church.png" alt="webpage">
+            </div>
+
+            <section class="projectbody">
+                <div class="title">
+                    <h1> Global Champions Ministries Website </h1>
+                    <p class="tag"> Live</p>
+
+                    <a href="https://church-omgtj934k-billionzs-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+
+                <h2>
+                    A modern church website designed for Global Champions, focused on accessibility and simplicity. 
+                    It highlights events, donations, and community resources with a clean and welcoming design.
+                </h2>
+            </section>
+        </div>
+            
+    </section>
+
+    <hr>
+
+    <footer>
+        <div class="socials">
+                <a href="https://x.com/Everything__Pop" target="_blank" rel="noreferrer noopener">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+
+                <a href="https://web.facebook.com/Onye.Hezekiah/" target="_blank" rel="noreferrer noopener">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://wa.me/2348138884866" target="_blank" rel="noreferrer noopener">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+
+        <h1> Onyenonachi Hezekiah </h1>
+
+        <a href="#a1"> About </a>
+        <a href="#a2"> Contact </a>
+        <a href="#a3" > Projects </a>
+
+        <p>&copy; <span id="year"></span> Billionz All Rights Reserved</p>
+    </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+   <script src="JavaScript/nav.js"></script>
+</body>
+</html>

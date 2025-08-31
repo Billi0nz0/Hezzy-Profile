@@ -21,14 +21,13 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 70px;
 }
 
 .main-header {
     box-sizing: border-box;
     width: 100%;
-    height: 60%;
-    padding: 30px;
+    height: 500px;
+    padding: 10px;
     border-radius: 0 0 25px 25px;
     background: url(../assets/alexander-grey-unsplash.jpg);
 }
@@ -43,14 +42,15 @@ header {
 
 .nickname {
     position: fixed;
-    top: 200px;
+    top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
+    padding: 30px;
     width: 900px;
+    height: auto;
     background: #ffffff;
-    border-radius: 50px;
+    border-radius: 35px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
@@ -108,10 +108,6 @@ header {
     font-size: 28px;
     text-decoration: none;
     border: 0.5rem solid #ffffff;
-}
-
-.fa-github {
-  color: #ffffff; 
 }
 
 .profileHead {
@@ -306,7 +302,6 @@ footer p {
     .nickname {
         width: 80%;
         padding: 10px;
-        top: 250px;
     }
 
     .nickname h1 {
@@ -399,7 +394,7 @@ footer p {
     justify-content: space-between;
     width: 90%; 
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 15px;
   }
 
   .nickname h1 {
@@ -424,7 +419,7 @@ footer p {
 
   .profileHead {
     flex-direction: column-reverse;
-    padding: 50px;
+    padding: 30px;
     gap: 20px;
   }
 

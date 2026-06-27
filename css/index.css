@@ -370,6 +370,9 @@ footer p{
 }
 
 @media(max-width:500px){
+    .title h1{
+        font-size:1.5rem;
+    }
 
     .nickname h1{
         font-size:2rem;

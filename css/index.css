@@ -110,10 +110,6 @@ hr{
     gap:70px;
 }
 
-.details{
-    flex:1;
-}
-
 .name h1{
     font-size:3.2rem;
     margin-bottom:25px;

@@ -676,7 +676,7 @@ footer p{
     margin-top:10px;
 }
 
-#scroll {
+.scrollTop {
     padding: var(--buttons-padding);
     border-radius: var(--radius-pill);
     background-color: var(--surface-4);

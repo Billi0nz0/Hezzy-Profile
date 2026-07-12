@@ -544,6 +544,7 @@ hr {
 }
 
 .projects>p:first-of-type{
+    text-align: center;
     font-size: var(--h2);
     font-weight: var(--fw-bold);
     color: var(--text);

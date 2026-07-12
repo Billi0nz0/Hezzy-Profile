@@ -668,7 +668,8 @@ footer a{
 }
 
 footer a:hover{
-    color:#9c7dff;
+    color: var(--text);
+    background-color: var(--primary-light);
 }
 
 footer p{

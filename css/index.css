@@ -292,7 +292,6 @@ hr {
 .greeting span {
     color: var(--primary);
     font-family: var(--font-heading);
-    font-size: var(--h2);
 }
 
 .hero-name {

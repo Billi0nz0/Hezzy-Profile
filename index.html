@@ -3,8 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="icon"  href="https://i.ibb.co/4nprXXFB/Add-a-heading-5.png">
+
+    <!-- SEO -->
+    <title>Onyenonachi U. Hezekiah | Full Stack MERN Developer</title>
+    <meta
+        name="description"
+        content="Portfolio of Onyenonachi U. Hezekiah, a Full Stack MERN Developer specializing in React, Node.js, Express, MongoDB, and modern web applications."
+    >
+    <meta
+        name="keywords"
+        content="Onyenonachi Hezekiah, MERN Developer, Full Stack Developer, React Developer, Node.js, MongoDB, JavaScript, Nigeria"
+    >
+    <meta name="author" content="Onyenonachi U. Hezekiah">
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#0b0b12">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Onyenonachi U. Hezekiah | Full Stack MERN Developer">
+    <meta
+        property="og:description"
+        content="Building modern, scalable web applications with the MERN stack."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://i.ibb.co/99Knr1Jt/Add-a-heading-4.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://i.ibb.co/4nprXXFB/Add-a-heading-5.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+    
+
+    <!-- Font Awesome -->
     <link 
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -12,20 +49,27 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer"
     >
+    <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Onyenonachi U. Hezekiah</title>
 </head>
 
 <body>
-    <header class="main-header">
+    <header class="main-header fade-on-scroll">
 
         <div class="logo">
-            <img src="https://i.ibb.co/4nprXXFB/Add-a-heading-5.png" alt="Add a heading (5)" border="0">
+            
+            <a href="#a0">
+                <img src="https://i.ibb.co/4nprXXFB/Add-a-heading-5.png"  alt="Add a heading (5)" border="0">
+            </a>
+            
 
             <nav id="myLinks" class="navLinks">
                 <a href="#a1"> <i class="fa-solid fa-user"></i> About </a>
-                <a href="#a1"> <i class="fa-solid fa-envelope"></i> Contact </a>
+                <a href="#a2"> <i class="fa-solid fa-envelope"></i> Contact </a>
                 <a href="#a3" > <i class="fa-solid fa-code"></i> Projects </a>
                 <a href="assets/Onyenonachi-Hezekiah-CV.pdf" download class="download-btn"> <i class="fa-solid fa-download"></i> Download CV </a>
             </nav>
@@ -36,140 +80,358 @@
         </div>
     </header>
 
-    <section id="a1" class="profileHead">
-        <div class="details">
+    <main>
 
-            <div class="name">
-                <h1> Onyenonachi U. Hezekiah</h1>
-            </div>
-           
-            <div class="bio">
-                <p>
-                   I don't just build interfaces, I build complete web applications. 
-                   Using the MERN stack, I create systems where the database, backend, and frontend work together seamlessly. 
-                   My focus is on writing clean code, delivering smooth user experiences, and building products that people genuinely enjoy using.
-                </p>
-            </div>
+        <section class="hero fade-on-scroll">
+            <div class="personal-details">
+                <div id="a0" class="greeting"> Hey there, <span id="greetings"> </span> </div>
 
-            <div id="a2" class="socials">
-                <a href="https://www.tiktok.com/@hzkdev" target="_blank" rel="noreferrer noopener">
-                    <i class="fab fa-tiktok"></i>
-                </a>
-
-                <a href="mailto:irochezudo@gmil.com" target="_blank" rel="noreferrer noopener">
-                    <i class="fa-solid fa-envelope"></i>
-                </a>
-
-                <a href="https://wa.me/2348138884866" target="_blank" rel="noreferrer noopener">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-
-                <a href="https://github.com/Billi0nz0" target="_blank" rel="noreferrer noopener">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-        </div>
-        
-
-        <div class="profilePic">
-            <img src="https://i.ibb.co/99Knr1Jt/Add-a-heading-4.png" alt="profilePic" border="0">
-        </div>
-    </section>
-
-    <hr>
-
-    <section id="a3" class="projects">
-    <h1> Projects </h1>
-    <p> Here are some of the projects I’ve had the privilege to work on. </p>
-        
-        <div class="projectMain">
-
-            <div class="projectPic">
-                <img src="https://i.ibb.co/Q7Tfw01N/download.png" alt="Screenshot (100)" border="0">
-            </div>
-
-            <section class="projectbody">
-                <div class="title">
-                    <h1> African Recipes </h1>
-
-                    <div class="actions">
-                        <p class="tag"> Live</p>
-
-                        <a href="https://www.afrirecipes.com" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-solid fa-up-right-from-square"></i>
-                        </a>
-                    </div>
+                <div class="hero-heading">
+                    <p class="hero-name"> I'm <span> Onyenonachi U. Hezekiah </span> </p>
+                    <p class="hero-subtitle"> Full Stack MERN Developer </p>
                 </div>
-
-                <h2>
-                    A modern recipe-sharing platform built to celebrate African cuisine through technology. 
-                    The platform enables users to discover authentic recipes, publish their own, save favorites, interact with other food lovers, and explore the rich culinary heritage of Africa. 
-                    Designed with a clean, responsive interface and community-first experience, it combines social networking with intuitive recipe management 
-                    to create an engaging digital home for African food enthusiasts.
-                </h2>
-            </section>
-        </div>
-
-        <div class="projectMain">
-
-            <div class="projectPic">
-                <img src="https://i.ibb.co/j9NLfKwZ/Screenshot-87.png" alt="Screenshot (87)" border="0">
-            </div>
-
-            <section class="projectbody">
-                <div class="title">
-                    <h1>Global Champions (GCM)  </h1>
-
-                    <div class="actions">
-                        <p class="tag"> Live</p>
-
-                        <a href="https://www.gcm.com.ng" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-solid fa-up-right-from-square"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <h2>
-                    A modern church website built for Global Champions Ministries to strengthen its digital presence and 
-                    help people connect with the ministry. The platform features service information, online giving, live streaming, 
-                    ministry updates, and a clean, responsive design that reflects the church's mission of faith, worship, and community.
-                </h2>
-            </section>
-        </div>
-
-        <div class="projectMain">
-
-            <div class="projectPic">
-                <img src="https://i.ibb.co/0jxCJ2xY/Screenshot-99.png" alt="Screenshot (99)" border="0">
-            </div>
-
-            <section class="projectbody">
-                <div class="title">
-                    <h1> 1st Choice Residential Services </h1>
-
-                    <div class="actions">
-                        <p class="tag"> Live</p>
-
-                        <a href="https://www.1stchoiceresservice.com/index.html" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-solid fa-up-right-from-square"></i>
-                        </a>    
-                    </div>
-                </div>
-
-                <h2>
-                    A modern healthcare website designed to connect patients with quality residential healthcare services. 
-                    The platform presents healthcare solutions in a clear, accessible, and trustworthy way, featuring a clean user interface, 
-                    responsive design, and an intuitive experience that makes it easy for visitors to learn about services and get in touch.
-                </h2>
-            </section>
-        </div>
             
-    </section>
+                <div class="bio">
+                    <p class="hero-description">
+                        I build scalable web applications using the MERN stack, combining beautiful interfaces 
+                        with robust backend systems that solve real business problems.
+                    </p>
+                </div>
+
+                <nav id="myLinks" class="hero-btns">
+                    <a href="#a3" > <i class="fa-solid fa-code"></i> Projects </a>
+                    <a href="assets/Onyenonachi-Hezekiah-CV.pdf" download class="download-btn"> <i class="fa-solid fa-download"></i> Download CV </a>
+                </nav>
+
+                <div id="a2" class="socials">
+                    <a href="https://www.tiktok.com/@hzkdev" target="_blank" rel="noreferrer noopener">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+
+                    <a href="mailto:irochezudo@gmail.com" target="_blank" rel="noreferrer noopener">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+
+                    <a href="https://wa.me/2348138884866" target="_blank" rel="noreferrer noopener">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://github.com/Billi0nz0" target="_blank" rel="noreferrer noopener">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            
+
+            <div class="profilePic">
+                <img src="https://i.ibb.co/99Knr1Jt/Add-a-heading-4.png" alt="profilePic" border="0">
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="a1" class="about-me fade-on-scroll">
+
+            <div class="section-heading">
+                    <span class="section-badge">About Me</span>
+                    <h2>My Journey</h2>
+                    <p>
+                        From studying economics to building full-stack web applications, my path has been driven by curiosity, continuous learning, and a passion for creating meaningful digital experiences.
+                    </p>
+            </div>
+
+            <div class="aboutDetails">
+                
+
+                <div class="about-grid">
+
+                    <article class="about-card fade-on-scroll">
+
+                        <h3>Background</h3>
+
+                        <p>
+                            I'm <strong>Onyenonachi U. Hezekiah</strong>, a Full Stack MERN Developer based in
+                            Nigeria. I enjoy solving problems through technology and building applications that
+                            are both functional and visually engaging. My goal is to create software that delivers
+                            real value to businesses and the people who use it.
+                        </p>
+                    </article>
+
+                    <article class="about-card fade-on-scroll">
+
+                        <h3>Education</h3>
+
+                        <p>
+                            I earned a Bachelor's degree in <strong>Economics</strong> from
+                            <strong>Federal University Dutsin-Ma, Katsina State</strong>. Studying economics
+                            strengthened my analytical thinking, research skills, and ability to understand
+                            complex systems—skills that continue to influence how I approach software
+                            development and problem-solving.
+                        </p>
+                    </article>
+
+                    <article class="about-card fade-on-scroll">
+
+                        <h3>Interest in Technology</h3>
+
+                        <p>
+                            My passion for technology inspired me to transition into software development.
+                            Through consistent learning and hands-on projects, I developed expertise in the
+                            MERN stack, focusing on building scalable, responsive, and user-friendly web
+                            applications. I enjoy turning ideas into products that combine clean code,
+                            thoughtful design, and exceptional user experiences.
+                        </p>
+                    </article>
+                </div>
+
+                <hr>
+
+                <section id="tech" class="tech-stack">
+
+                    <div class="section-heading">
+                        <span class="section-badge">Tech Stack</span>
+                        <h2>Technologies I Work With</h2>
+                        <p>
+                            I build full-stack web applications using modern technologies, focusing on performance,
+                            scalability, and great user experiences.
+                        </p>
+                    </div>
+
+                    <div class="stack-grid fade-on-scroll">
+
+                        <article class="stack-card">
+
+                            <i class="fa-brands fa-html5"></i>
+
+                            <h3>HTML5</h3>
+
+                            <p>Semantic, accessible, and SEO-friendly markup.</p>
+
+                        </article>
+
+                        <article class="stack-card">
+
+                            <i class="fa-brands fa-css3-alt"></i>
+
+                            <h3>CSS3</h3>
+
+                            <p>Responsive layouts, Flexbox, Grid, animations, and modern UI.</p>
+
+                        </article>
+
+                        <article class="stack-card">
+
+                            <i class="fa-brands fa-js"></i>
+
+                            <h3>JavaScript</h3>
+
+                            <p>Modern ES6+, asynchronous programming, and DOM manipulation.</p>
+
+                        </article>
+
+                        <article class="stack-card">
+
+                            <i class="fa-brands fa-react"></i>
+
+                            <h3>React</h3>
+
+                            <p>Component-based interfaces with reusable architecture.</p>
+
+                        </article>
+
+                        <article class="stack-card">
+
+                            <i class="fa-brands fa-node-js"></i>
+
+                            <h3>Node.js</h3>
+
+                            <p>Backend APIs and scalable server-side applications.</p>
+
+                        </article>
+
+                        <article class="stack-card">
+
+                            <i class="fa-solid fa-server"></i>
+
+                            <h3>Express.js</h3>
+
+                            <p>RESTful APIs, authentication, and backend architecture.</p>
+
+                        </article>
+
+                        <article class="stack-card">
+
+                            <i class="fa-solid fa-database"></i>
+
+                            <h3>MongoDB</h3>
+
+                            <p>Database modelling with Mongoose and NoSQL solutions.</p>
+
+                        </article>
+
+                        <article class="stack-card">
+
+                            <i class="fa-brands fa-git-alt"></i>
+
+                            <h3>Git</h3>
+
+                            <p>Version control and collaborative development workflows.</p>
+
+                        </article>
+
+                        <article class="stack-card">
+
+                            <i class="fa-brands fa-github"></i>
+
+                            <h3>GitHub</h3>
+
+                            <p>Repository management and project collaboration.</p>
+
+                        </article>
+
+                        <article class="stack-card">
+
+                            <i class="fa-solid fa-cloud"></i>
+
+                            <h3>Cloud Deployment</h3>
+
+                            <p>Vercel, Render, and modern deployment workflows.</p>
+
+                        </article>
+
+                        <article class="stack-card">
+
+                            <i class="fa-solid fa-palette"></i>
+
+                            <h3>UI/UX Design</h3>
+
+                            <p>Creating clean, modern, and user-focused interfaces.</p>
+
+                        </article>
+
+                        <article class="stack-card">
+
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+
+                            <h3>Responsive Design</h3>
+
+                            <p>Building applications that work beautifully on every device.</p>
+
+                        </article>
+
+                    </div>
+
+                </section>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="a3" class="projects fade-on-scroll">
+            <h1> Projects </h1>
+            <p> My Recent Works </p>
+            <p> Here are some of the projects I’ve had the privilege to work on. </p>
+            
+            <div class="project-grid">
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="https://i.ibb.co/1tSqYntD/Screenshot-100.png" alt="African Recipes">
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-header">
+                            <h3>African Recipes</h3>
+
+                            <a href="https://www.afrirecipes.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="tag">
+                                Visit
+                                <i class="fa-solid fa-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                        <p>
+                            A modern recipe-sharing platform built to celebrate African cuisine through technology.
+                            Users can discover authentic recipes, publish their own, save favourites,
+                            and connect with other food lovers through a community-first experience.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="https://i.ibb.co/j9NLfKwZ/Screenshot-87.png" alt="Global Champions Ministries">
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-header">
+                            <h3>Global Champions Ministries</h3>
+
+                            <a href="https://www.gcm.com.ng"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="tag">
+                                Visit
+                                <i class="fa-solid fa-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                        <p>
+                            A modern church website that helps visitors connect with the ministry through
+                            online giving, livestreams, ministry updates, service information,
+                            and a clean responsive experience.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="https://i.ibb.co/0jxCJ2xY/Screenshot-99.png" alt="1st Choice Residential Services">
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-header">
+                            <h3>1st Choice Residential Services</h3>
+
+                            <a href="https://www.1stchoiceresservice.com/index.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="tag">
+                                Visit
+                                <i class="fa-solid fa-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                        <p>
+                            A healthcare website designed to connect patients with residential care services
+                            through a trustworthy interface, responsive design, and an intuitive user experience.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+                
+        </section>
+    </main>
 
     <hr>
 
     <footer>
-        <div class="socials">
+        <div class="socials fade-on-scroll">
                 <a href="https://x.com/Everything__Pop" target="_blank" rel="noreferrer noopener">
                     <i class="fab fa-x-twitter"></i>
                 </a>
@@ -197,9 +459,14 @@
         <hr />
 
         <p>&copy; <span id="year"></span> Billionz All Rights Reserved</p>
+        <button id="scroll"> <i class="fa-solid fa-arrow-up"></i> </button>
     </footer>
     <script src="JavaScript/nav.js"></script>
+    <script src="JavaScript/greeterFunc.js"></script>
+    <script src="JavaScript/fadeOnScroll.js"></script>
+    <script src="JavaScript/scrollToTop.js"></script>
     <script src="JavaScript/scroll.js"></script>
+
     <script>
         document.getElementById("year").textContent = new Date().getFullYear();
     </script>
